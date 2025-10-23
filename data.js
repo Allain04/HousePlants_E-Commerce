@@ -1,0 +1,1 @@
+const PRODUCTS=[{id:'p1',name:'Snake Plant',price:450,category:'Air Purifier',img:'https://picsum.photos/seed/plant1/400/300'}];const CATEGORIES=['Air Purifier'];

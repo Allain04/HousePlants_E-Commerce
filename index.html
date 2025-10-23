@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GreenNest — Houseplants for Every Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">GreenNest</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html" class="cart-link">Cart 🛒 <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+  <main class="landing">
+    <div class="landing-bg"></div>
+    <div class="landing-content">
+      <h1>GreenNest</h1>
+      <p>At GreenNest, we bring the calm of nature into your living space...</p>
+      <a class="btn" href="products.html">Get Started</a>
+    </div>
+  </main>
+  <footer class="site-footer">© <span id="year"></span> GreenNest</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
